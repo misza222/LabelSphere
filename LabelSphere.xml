@@ -45,6 +45,8 @@
     <Content type="html">
         <![CDATA[
             <script src="http://www.google.com/jsapi"></script>
+            <script src="http://alexdioso.github.com/LabelSphere/LabelSphere.tiny.js">
+            </script>
             <script type="text/javascript">
                 gadgets.util.registerOnLoadHandler(function(){
                     ikaika(__MODULE_ID__)
