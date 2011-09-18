@@ -26,8 +26,8 @@
         show up."
         author="Alex Dioso"
         author_email="alex.dioso@ikaika.org"
-        thumbnail="http://ikaika.org/gadgets/label_sphere/label_sphere_thumbnail.png"
-        screenshot="http://ikaika.org/gadgets/label_sphere/label_sphere_screenshot.png"
+        thumbnail="http://alexdioso.github.com/LabelSphere/LabelSphereThumbnail.png"
+        screenshot="http://alexdioso.github.com/LabelSphere/LabelSphereScreenshot.png"
         author_location="Seattle, Washington, US"
         author_affiliation="ikaika.org" >
         <Require feature="opensocial-0.8"/>
