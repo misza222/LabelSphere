@@ -61,21 +61,8 @@
                     border-style: solid;
                     border-width: 1px;
                 }
-                #ikaika {
-                    position: absolute;
-                    bottom: 0px;
-                    /* TODO - Fix opacity for IE
-                     * http://www.quirksmode.org/css/opacity.html
-                     */
-                    opacity: .5;
-                    font-size: 70%;
-                }
             </style>
             <div id="ikaika-container">
-                <div id="ikaika">
-                    <a href="http://blog.ikaika.org/search/label/Gadget"
-                        target="_parent">ikaika.org</a>
-                </div>
             </div>
         ]]>
     </Content>
