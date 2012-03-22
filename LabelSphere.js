@@ -92,7 +92,7 @@ ikaika = function(moduleId) {
         // Set some CSS properties to match the blog
         $('*')[css]({
             backgroundColor: gSkinsGetProp('CONTENT_BG_COLOR'),
-            color: gSkinsGetProp('CONTENT_LINK_COLOR'),
+            color: '#8D1820',
             fontFamily: fontFace
         });
 
@@ -100,34 +100,9 @@ ikaika = function(moduleId) {
             borderColor: gSkinsGetProp('BORDER_COLOR')
         });
 
-        // Animate the div containing the ikaika link
-        $('#ikaika')[hover]( ikaikaHoverIn, ikaikaHoverOut);
-
         var blog = new google['Blog'](function() {
             blog['getPostsJson'](onLoadPosts);
         }, window['name']);
-    }
-
-    /*
-     * Increase fontsize and opacity of an object when the mouse is over it
-     */
-    function ikaikaHoverIn() {
-        $(this)[animate]({
-            opacity: '1',
-            fontSize: '100%'
-        },
-        'fast');
-    }
-
-    /*
-     * Decrease fontsize and opacity of an object when the mouse isn't over it
-     */
-    function ikaikaHoverOut() {
-        $(this)[animate]({
-            opacity: '.5',
-            fontSize: '70%'
-        },
-        'fast');
     }
 
     /*
