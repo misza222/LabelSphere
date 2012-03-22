@@ -193,13 +193,13 @@ ikaika = function(moduleId) {
         }
 
         $('a')[css]({
-            color: gSkinsGetProp('CONTENT_LINK_COLOR'),
+            color: '#8D1820',
             textDecoration: 'none'
         });
 
         $('.ikaikaLabel')[hover](
-            function() {$(this)[css]({borderStyle: 'solid'});},
-            function() {$(this)[css]({borderStyle: 'none'});}
+            function() {$(this)[css]({fontWeight: 'bold'});},
+            function() {$(this)[css]({fontWeight: 'normal'});}
         );
     }
 
